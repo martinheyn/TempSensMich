@@ -26,7 +26,7 @@ void loop(void){
   // Call sensors.requestTemperatures() to issue a global temperature and Requests to all devices on the bus
   sensors.requestTemperatures(); 
   
-  Serial.print("Celsius_temp: ");
+  //Serial.print("Celsius_temp: ");
   //ByIndex0 refers to the first IC on the wire
   Serial.println(sensors.getTempCByIndex(0)); 
   delay(1000);
